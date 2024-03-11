@@ -28,3 +28,6 @@ D:\Dev\Software\Projects\SignalR\SignalR.Web\obj\Debug\net8.0\refint\SignalR.Web
 D:\Dev\Software\Projects\SignalR\SignalR.Web\obj\Debug\net8.0\SignalR.Web.pdb
 D:\Dev\Software\Projects\SignalR\SignalR.Web\obj\Debug\net8.0\SignalR.Web.genruntimeconfig.cache
 D:\Dev\Software\Projects\SignalR\SignalR.Web\obj\Debug\net8.0\ref\SignalR.Web.dll
+D:\Dev\Software\Projects\SignalR\SignalR.Web\bin\Debug\net8.0\package-lock.json
+D:\Dev\Software\Projects\SignalR\SignalR.Web\bin\Debug\net8.0\package.json
+D:\Dev\Software\Projects\SignalR\SignalR.Web\obj\Debug\net8.0\SignalR.Web.sourcelink.json

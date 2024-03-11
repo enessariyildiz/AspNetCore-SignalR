@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "rHUy4yddpISKtxO/LoblwQ2wXedqO7TijkAGHxrJvKI=",
+  "Hash": "F/70CVcOcSM09729xUgUgkAl1H8HicyLBP4oST+jUk4=",
   "Source": "SignalR.Web",
   "BasePath": "_content/SignalR.Web",
   "Mode": "Default",
@@ -1193,6 +1193,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Identity": "D:\\Dev\\Software\\Projects\\SignalR\\SignalR.Web\\wwwroot\\lib\\signalr\\signalr.min.js",
+      "SourceId": "SignalR.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Dev\\Software\\Projects\\SignalR\\SignalR.Web\\wwwroot\\",
+      "BasePath": "_content/SignalR.Web",
+      "RelativePath": "lib/signalr/signalr.min.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\signalr\\signalr.min.js"
     }
   ]
 }
