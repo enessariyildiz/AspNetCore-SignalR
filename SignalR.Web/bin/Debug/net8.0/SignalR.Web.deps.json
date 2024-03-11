@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "SignalR.Web/1.0.0": {
+        "runtime": {
+          "SignalR.Web.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "SignalR.Web/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
