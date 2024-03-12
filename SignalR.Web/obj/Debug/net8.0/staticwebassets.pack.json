@@ -13,6 +13,10 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "D:\\Dev\\Software\\Projects\\SignalR\\SignalR.Web\\wwwroot\\js\\signalr-client.js",
+      "PackagePath": "staticwebassets\\js\\signalr-client.js"
+    },
+    {
       "Id": "D:\\Dev\\Software\\Projects\\SignalR\\SignalR.Web\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },

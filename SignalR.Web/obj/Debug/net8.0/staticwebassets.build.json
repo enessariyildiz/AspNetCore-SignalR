@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "F/70CVcOcSM09729xUgUgkAl1H8HicyLBP4oST+jUk4=",
+  "Hash": "8ROjOeRz+qhDRiDJccqMMaJ/n24SmztImWfCgggAdpI=",
   "Source": "SignalR.Web",
   "BasePath": "_content/SignalR.Web",
   "Mode": "Default",
@@ -91,6 +91,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "D:\\Dev\\Software\\Projects\\SignalR\\SignalR.Web\\wwwroot\\js\\signalr-client.js",
+      "SourceId": "SignalR.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Dev\\Software\\Projects\\SignalR\\SignalR.Web\\wwwroot\\",
+      "BasePath": "_content/SignalR.Web",
+      "RelativePath": "js/signalr-client.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\signalr-client.js"
     },
     {
       "Identity": "D:\\Dev\\Software\\Projects\\SignalR\\SignalR.Web\\wwwroot\\js\\site.js",
