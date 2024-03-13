@@ -3,7 +3,7 @@ $(document).ready(function () {
     const broadCastMessageToAllClientHubMethodCall = "BroadCastMessageToAllClient";
     const ReceiveMessageForAllClientClientMethodCall = "ReceiveMessageForAllClient";
 
-    const connection = new signalR.HubConnectionBuilder().withUrl("/examplehub").configureLogging(signalR.LogLevel.Information).build();
+    const connection = new signalR.HubConnectionBuilder().withUrl("/exampleTypeSafeHub").configureLogging(signalR.LogLevel.Information).build();
 
     function start() {
         connection.start().then(() => console.log("Connected to Hub."));
