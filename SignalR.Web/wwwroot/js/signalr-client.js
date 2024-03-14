@@ -1,7 +1,8 @@
 $(document).ready(function () {
 
     const broadCastMessageToAllClientHubMethodCall = "BroadCastMessageToAllClient";
-    const ReceiveMessageForAllClientClientMethodCall = "ReceiveMessageForAllClient";
+    const receiveMessageForAllClientClientMethodCall = "ReceiveMessageForAllClient";
+    const receiveConnectedClientCountAllClient = "ReceiveConnectedClientCountAllClient";
 
     const connection = new signalR.HubConnectionBuilder().withUrl("/exampleTypeSafeHub").configureLogging(signalR.LogLevel.Information).build();
 
@@ -16,8 +17,15 @@ $(document).ready(function () {
         setTimeout(() => start(), 5000);
     }
 
-    connection.on(ReceiveMessageForAllClientClientMethodCall, (message) => {
+    //subscribe
+    connection.on(receiveMessageForAllClientClientMethodCall, (message) => {
         console.log("Incomming message: ", message);
+    })
+
+    var span_client_count = $("#span-connected-client-count");
+    connection.on(receiveConnectedClientCountAllClient, (count) => {
+        span_client_count.text(count);
+        console.log("Connected client count: ", count);
     })
 
     $("#btn-send-message-all-client").click(function () {
