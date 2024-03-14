@@ -2,6 +2,10 @@ $(document).ready(function () {
 
     const broadCastMessageToAllClientHubMethodCall = "BroadCastMessageToAllClient";
     const receiveMessageForAllClientClientMethodCall = "ReceiveMessageForAllClient";
+
+    const broadCastMessageToCallerClient = "BroadCastMessageToCallerClient";
+    const receiveMessageForCallerClient = "ReceiveMessageForCallerClient";
+
     const receiveConnectedClientCountAllClient = "ReceiveConnectedClientCountAllClient";
 
     const connection = new signalR.HubConnectionBuilder().withUrl("/exampleTypeSafeHub").configureLogging(signalR.LogLevel.Information).build();
@@ -22,6 +26,10 @@ $(document).ready(function () {
         console.log("Incomming message: ", message);
     })
 
+    connection.on(receiveMessageForCallerClient, (message) => {
+        console.log("(Caller) Incomming message: ", message);
+    })
+
     var span_client_count = $("#span-connected-client-count");
     connection.on(receiveConnectedClientCountAllClient, (count) => {
         span_client_count.text(count);
@@ -31,5 +39,10 @@ $(document).ready(function () {
     $("#btn-send-message-all-client").click(function () {
         const message = "hello world";
         connection.invoke(broadCastMessageToAllClientHubMethodCall, message).catch(err => console.error("error", err));
+    })
+
+    $("#btn-send-message-caller-client").click(function () {
+        const message = "hello world";
+        connection.invoke(broadCastMessageToCallerClient, message).catch(err => console.error("error", err));
     })
 })
