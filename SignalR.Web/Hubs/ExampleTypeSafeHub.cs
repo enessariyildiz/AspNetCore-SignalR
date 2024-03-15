@@ -16,6 +16,11 @@ namespace SignalR.Web.Hubs
             await Clients.Caller.ReceiveMessageForCallerClient(message);
         }
 
+        public async Task BroadCastMessageToOthersClient(string message)
+        {
+            await Clients.Others.ReceiveMessageForOthersClient(message);
+        }
+
         public override async Task OnConnectedAsync()
         {
             ConnectedClientCount++;
