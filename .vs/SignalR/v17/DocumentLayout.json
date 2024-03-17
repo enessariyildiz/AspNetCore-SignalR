@@ -1,12 +1,54 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "D:\\Dev\\Software\\Projects\\SignalR\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{40CB2D86-DF95-41D6-B859-481BE4370BA9}|SignalR.Web\\SignalR.Web.csproj|d:\\dev\\software\\projects\\signalr\\signalr.web\\wwwroot\\js\\signalr-client.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{40CB2D86-DF95-41D6-B859-481BE4370BA9}|SignalR.Web\\SignalR.Web.csproj|solutionrelative:signalr.web\\wwwroot\\js\\signalr-client.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40CB2D86-DF95-41D6-B859-481BE4370BA9}|SignalR.Web\\SignalR.Web.csproj|d:\\dev\\software\\projects\\signalr\\signalr.web\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{40CB2D86-DF95-41D6-B859-481BE4370BA9}|SignalR.Web\\SignalR.Web.csproj|solutionrelative:signalr.web\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "signalr-client.js",
+              "DocumentMoniker": "D:\\Dev\\Software\\Projects\\SignalR\\SignalR.Web\\wwwroot\\js\\signalr-client.js",
+              "RelativeDocumentMoniker": "SignalR.Web\\wwwroot\\js\\signalr-client.js",
+              "ToolTip": "D:\\Dev\\Software\\Projects\\SignalR\\SignalR.Web\\wwwroot\\js\\signalr-client.js",
+              "RelativeToolTip": "SignalR.Web\\wwwroot\\js\\signalr-client.js",
+              "ViewState": "AQIAABEAAAAAAAAAAAAAwCAAAABKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-03-17T16:06:56.726Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Dev\\Software\\Projects\\SignalR\\SignalR.Web\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "SignalR.Web\\Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\Dev\\Software\\Projects\\SignalR\\SignalR.Web\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "SignalR.Web\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-17T16:04:52.976Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }

@@ -24,6 +24,14 @@ $(document).ready(function () {
         setTimeout(() => start(), 5000);
     }
 
+    const span_client_count = $("#span-connected-client-count");
+    connection.on(receiveConnectedClientCountAllClient, (count) => {
+        span_client_count.text(count);
+        console.log("Connected client count: ", count);
+    })
+
+    $("#connectionId").html(`Connection Id : ${connection.connectionId}`);
+
     //subscribe
     connection.on(receiveMessageForAllClientClientMethodCall, (message) => {
         console.log("Incomming message: ", message);
@@ -35,12 +43,6 @@ $(document).ready(function () {
 
     connection.on(receiveMessageForOthersClient, (message) => {
         console.log("(Others) Incomming message: ", message);
-    })
-
-    const span_client_count = $("#span-connected-client-count");
-    connection.on(receiveConnectedClientCountAllClient, (count) => {
-        span_client_count.text(count);
-        console.log("Connected client count: ", count);
     })
 
     $("#btn-send-message-all-client").click(function () {
