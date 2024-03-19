@@ -9,13 +9,25 @@
 <div class="container">
     <div class="row">
         <div class="col-md-8 offset-md-2">
-            <div id="connectionId" class="badge"></div>
+            <div id="connectionId" class="alert alert-primary" role="alert">
+            </div>
+
             <button type="button" class="btn btn-success mx-1 my-1">
                 Connected client count <span id="span-connected-client-count" class="badge text-bg-secondary"></span>
             </button>
-            <button class="btn btn-primary mx-1 my-1" id="btn-send-message-all-client" >Send to all client.</button>
-            <button class="btn btn-primary mx-1 my-1" id="btn-send-message-caller-client">Send to the requesting client.</button>
-            <button class="btn btn-primary mx-1 my-1" id="btn-send-message-others-client">Send to the others client.</button>
+
+            <button class="btn btn-primary mx-1 my-1" id="btn-send-message-all-client">Send to all client.</button>
+
+            <button class="btn btn-primary mx-1 my-1" id="btn-send-message-caller-client">Send to requesting client.</button>
+
+            <button class="btn btn-primary mx-1 my-1" id="btn-send-message-others-client">Send to others client.</button>
+
+            <div>
+                <hr />
+                <input type="text" class="form-control mx-1 my-1" id="text-connectionId" placeholder="Connection Id">
+                <button class="btn btn-primary mx-1 my-1" id="btn-send-message-individual-client">Send to spesific client.</button>
+            </div>
+
         </div>
     </div>
 </div>
