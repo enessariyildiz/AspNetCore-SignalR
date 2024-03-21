@@ -1,5 +1,7 @@
 $(document).ready(function () {
 
+    const connection = new signalR.HubConnectionBuilder().withUrl("/exampleTypeSafeHub").configureLogging(signalR.LogLevel.Information).build();
+
     const broadCastMessageToAllClientHubMethodCall = "BroadCastMessageToAllClient";
     const receiveMessageForAllClientClientMethodCall = "ReceiveMessageForAllClient";
 
@@ -14,7 +16,27 @@ $(document).ready(function () {
 
     const receiveConnectedClientCountAllClient = "ReceiveConnectedClientCountAllClient";
 
-    const connection = new signalR.HubConnectionBuilder().withUrl("/exampleTypeSafeHub").configureLogging(signalR.LogLevel.Information).build();
+    const groupA = "GroupA";
+    const groupB = "GroupB";
+    let currentGroupList = [];
+
+    function refreshGroupList() {
+        $("#groupList").empty();
+        currentGroupList.forEach(x => {
+            $("#groupList").append(`<p>${x}<p>`)
+        })
+    }
+
+    $("#btn-groupA-add").click(function () {
+
+    })
+
+    $("#btn-groupA-remove").click(function () {
+
+    })
+
+
+
 
     function start() {
         connection.start().then(() => {
