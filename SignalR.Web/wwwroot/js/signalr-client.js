@@ -28,15 +28,56 @@ $(document).ready(function () {
     }
 
     $("#btn-groupA-add").click(function () {
+        if (currentGroupList.includes(groupA)) return;
 
+        connection.invoke("AddGroup", groupA).then(() => {
+            currentGroupList.push(groupA);
+            refreshGroupList();
+        })
+    })
+
+    $("#btn-groupB-add").click(function () {
+        if (currentGroupList.includes(groupB)) return;
+
+        connection.invoke("AddGroup", groupB).then(() => {
+            currentGroupList.push(groupB);
+            refreshGroupList();
+        })
     })
 
     $("#btn-groupA-remove").click(function () {
+        if (!currentGroupList.includes(groupA)) return;
 
+        connection.invoke("RemoveGroup", groupA).then(() => {
+            currentGroupList = currentGroupList.filter(x => x !== groupA);
+            refreshGroupList();
+        })
     })
 
+    $("#btn-groupB-remove").click(function () {
+        if (!currentGroupList.includes(groupB)) return;
 
+        connection.invoke("RemoveGroup", groupB).then(() => {
+            currentGroupList = currentGroupList.filter(x => x !== groupB);
+            refreshGroupList();
+        })
+    })
 
+    $("#btn-groupA-send-message").click(function () {
+        const message = "Hello Group A!";
+        connection.invoke("BroadcastMessageToGroupClient", groupA, message).catch(err => console.error("error", err));
+        console.log("Message sended!");
+    })
+
+    $("#btn-groupB-send-message").click(function () {
+        const message = "Hello Group B!";
+        connection.invoke("BroadcastMessageToGroupClient", groupB, message).catch(err => console.error("error", err));
+        console.log("Message sended!");
+    })
+
+    connection.on("ReceiveMessageForGroupClients", (message) => {
+        console.log("Incomming message: ", message);
+    })
 
     function start() {
         connection.start().then(() => {
