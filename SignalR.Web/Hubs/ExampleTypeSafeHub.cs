@@ -1,5 +1,6 @@
 ﻿
 using Microsoft.AspNetCore.SignalR;
+using SignalR.Web.Models;
 
 namespace SignalR.Web.Hubs
 {
@@ -9,6 +10,11 @@ namespace SignalR.Web.Hubs
         public async Task BroadCastMessageToAllClient(string message)
         {
             await Clients.All.ReceiveMessageForAllClient(message);
+        }
+
+        public async Task BroadcastTypedMessageToAllClient(Product product)
+        {
+            await Clients.All.ReceiveTypedMessageForAllClient(product);
         }
 
         public async Task BroadCastMessageToCallerClient(string message)

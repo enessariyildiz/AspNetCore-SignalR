@@ -16,6 +16,9 @@ $(document).ready(function () {
 
     const receiveConnectedClientCountAllClient = "ReceiveConnectedClientCountAllClient";
 
+    const broadcastTypedMessageToAllClient = "BroadcastTypedMessageToAllClient";
+    const receiveTypedMessageForAllClient = "ReceiveTypedMessageForAllClient";
+
     const groupA = "GroupA";
     const groupB = "GroupB";
     let currentGroupList = [];
@@ -104,6 +107,10 @@ $(document).ready(function () {
         console.log("Incomming message: ", message);
     })
 
+    connection.on(receiveTypedMessageForAllClient, (product) => {
+        console.log("Incomming product: ", product);
+    })
+
     connection.on(receiveMessageForCallerClient, (message) => {
         console.log("(Caller) Incomming message: ", message);
     })
@@ -140,5 +147,12 @@ $(document).ready(function () {
         const connectionId = $("#text-connectionId").val();
         connection.invoke(broadcastMessageToIndividualClient, connectionId, message).catch(err => console.error("error", err))
         console.log("Message sended!");
+    })
+    $("#btn-send-typed-message-all-client").click(function () {
+        const product = { id: 1, name: "pen 1", price: 200 };
+
+        connection.invoke(broadcastTypedMessageToAllClient, product).catch(err => console.error("error", err))
+        console.log("Product sended!");
+
     })
 })
