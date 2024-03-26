@@ -1,54 +1,12 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "D:\\Dev\\Software\\Projects\\SignalR\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{151D0A30-3545-4E4D-B03B-8EFFAFBB864D}|SignalRClientConsoleApp\\SignalRClientConsoleApp.csproj|d:\\dev\\software\\projects\\signalr\\signalrclientconsoleapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{151D0A30-3545-4E4D-B03B-8EFFAFBB864D}|SignalRClientConsoleApp\\SignalRClientConsoleApp.csproj|solutionrelative:signalrclientconsoleapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{151D0A30-3545-4E4D-B03B-8EFFAFBB864D}|SignalRClientConsoleApp\\SignalRClientConsoleApp.csproj|d:\\dev\\software\\projects\\signalr\\signalrclientconsoleapp\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{151D0A30-3545-4E4D-B03B-8EFFAFBB864D}|SignalRClientConsoleApp\\SignalRClientConsoleApp.csproj|solutionrelative:signalrclientconsoleapp\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": [
-        {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 1,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Product.cs",
-              "DocumentMoniker": "D:\\Dev\\Software\\Projects\\SignalR\\SignalRClientConsoleApp\\Product.cs",
-              "RelativeDocumentMoniker": "SignalRClientConsoleApp\\Product.cs",
-              "ToolTip": "D:\\Dev\\Software\\Projects\\SignalR\\SignalRClientConsoleApp\\Product.cs",
-              "RelativeToolTip": "SignalRClientConsoleApp\\Product.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-26T13:38:30.913Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\Dev\\Software\\Projects\\SignalR\\SignalRClientConsoleApp\\Program.cs",
-              "RelativeDocumentMoniker": "SignalRClientConsoleApp\\Program.cs",
-              "ToolTip": "D:\\Dev\\Software\\Projects\\SignalR\\SignalRClientConsoleApp\\Program.cs",
-              "RelativeToolTip": "SignalRClientConsoleApp\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAASAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-26T13:20:23.803Z",
-              "EditorCaption": ""
-            }
-          ]
-        }
-      ]
+      "DocumentGroups": []
     }
   ]
 }
