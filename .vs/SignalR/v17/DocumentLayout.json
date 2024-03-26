@@ -3,24 +3,12 @@
   "WorkspaceRootPath": "D:\\Dev\\Software\\Projects\\SignalR\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{40CB2D86-DF95-41D6-B859-481BE4370BA9}|SignalR.Web\\SignalR.Web.csproj|d:\\dev\\software\\projects\\signalr\\signalr.web\\wwwroot\\js\\signalr-client.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{40CB2D86-DF95-41D6-B859-481BE4370BA9}|SignalR.Web\\SignalR.Web.csproj|solutionrelative:signalr.web\\wwwroot\\js\\signalr-client.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+      "AbsoluteMoniker": "D:0:0:{151D0A30-3545-4E4D-B03B-8EFFAFBB864D}|SignalRClientConsoleApp\\SignalRClientConsoleApp.csproj|d:\\dev\\software\\projects\\signalr\\signalrclientconsoleapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{151D0A30-3545-4E4D-B03B-8EFFAFBB864D}|SignalRClientConsoleApp\\SignalRClientConsoleApp.csproj|solutionrelative:signalrclientconsoleapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{40CB2D86-DF95-41D6-B859-481BE4370BA9}|SignalR.Web\\SignalR.Web.csproj|d:\\dev\\software\\projects\\signalr\\signalr.web\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{40CB2D86-DF95-41D6-B859-481BE4370BA9}|SignalR.Web\\SignalR.Web.csproj|solutionrelative:signalr.web\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{40CB2D86-DF95-41D6-B859-481BE4370BA9}|SignalR.Web\\SignalR.Web.csproj|d:\\dev\\software\\projects\\signalr\\signalr.web\\hubs\\exampletypesafehub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{40CB2D86-DF95-41D6-B859-481BE4370BA9}|SignalR.Web\\SignalR.Web.csproj|solutionrelative:signalr.web\\hubs\\exampletypesafehub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{40CB2D86-DF95-41D6-B859-481BE4370BA9}|SignalR.Web\\SignalR.Web.csproj|d:\\dev\\software\\projects\\signalr\\signalr.web\\hubs\\iexampletypesafehub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{40CB2D86-DF95-41D6-B859-481BE4370BA9}|SignalR.Web\\SignalR.Web.csproj|solutionrelative:signalr.web\\hubs\\iexampletypesafehub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{40CB2D86-DF95-41D6-B859-481BE4370BA9}|SignalR.Web\\SignalR.Web.csproj|d:\\dev\\software\\projects\\signalr\\signalr.web\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{40CB2D86-DF95-41D6-B859-481BE4370BA9}|SignalR.Web\\SignalR.Web.csproj|solutionrelative:signalr.web\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{151D0A30-3545-4E4D-B03B-8EFFAFBB864D}|SignalRClientConsoleApp\\SignalRClientConsoleApp.csproj|d:\\dev\\software\\projects\\signalr\\signalrclientconsoleapp\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{151D0A30-3545-4E4D-B03B-8EFFAFBB864D}|SignalRClientConsoleApp\\SignalRClientConsoleApp.csproj|solutionrelative:signalrclientconsoleapp\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -35,66 +23,27 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\Dev\\Software\\Projects\\SignalR\\SignalR.Web\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "SignalR.Web\\Views\\Home\\Index.cshtml",
-              "ToolTip": "D:\\Dev\\Software\\Projects\\SignalR\\SignalR.Web\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "SignalR.Web\\Views\\Home\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-25T15:10:41.246Z",
+              "Title": "Product.cs",
+              "DocumentMoniker": "D:\\Dev\\Software\\Projects\\SignalR\\SignalRClientConsoleApp\\Product.cs",
+              "RelativeDocumentMoniker": "SignalRClientConsoleApp\\Product.cs",
+              "ToolTip": "D:\\Dev\\Software\\Projects\\SignalR\\SignalRClientConsoleApp\\Product.cs",
+              "RelativeToolTip": "SignalRClientConsoleApp\\Product.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-26T13:38:30.913Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "signalr-client.js",
-              "DocumentMoniker": "D:\\Dev\\Software\\Projects\\SignalR\\SignalR.Web\\wwwroot\\js\\signalr-client.js",
-              "RelativeDocumentMoniker": "SignalR.Web\\wwwroot\\js\\signalr-client.js",
-              "ToolTip": "D:\\Dev\\Software\\Projects\\SignalR\\SignalR.Web\\wwwroot\\js\\signalr-client.js",
-              "RelativeToolTip": "SignalR.Web\\wwwroot\\js\\signalr-client.js",
-              "ViewState": "AQIAAHUAAAAAAAAAAAAuwJcAAAAuAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2024-03-25T15:08:08.408Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ExampleTypeSafeHub.cs",
-              "DocumentMoniker": "D:\\Dev\\Software\\Projects\\SignalR\\SignalR.Web\\Hubs\\ExampleTypeSafeHub.cs",
-              "RelativeDocumentMoniker": "SignalR.Web\\Hubs\\ExampleTypeSafeHub.cs",
-              "ToolTip": "D:\\Dev\\Software\\Projects\\SignalR\\SignalR.Web\\Hubs\\ExampleTypeSafeHub.cs",
-              "RelativeToolTip": "SignalR.Web\\Hubs\\ExampleTypeSafeHub.cs",
-              "ViewState": "AQIAAAQAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Dev\\Software\\Projects\\SignalR\\SignalRClientConsoleApp\\Program.cs",
+              "RelativeDocumentMoniker": "SignalRClientConsoleApp\\Program.cs",
+              "ToolTip": "D:\\Dev\\Software\\Projects\\SignalR\\SignalRClientConsoleApp\\Program.cs",
+              "RelativeToolTip": "SignalRClientConsoleApp\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAASAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-25T15:03:28.016Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "IExampleTypeSafeHub.cs",
-              "DocumentMoniker": "D:\\Dev\\Software\\Projects\\SignalR\\SignalR.Web\\Hubs\\IExampleTypeSafeHub.cs",
-              "RelativeDocumentMoniker": "SignalR.Web\\Hubs\\IExampleTypeSafeHub.cs",
-              "ToolTip": "D:\\Dev\\Software\\Projects\\SignalR\\SignalR.Web\\Hubs\\IExampleTypeSafeHub.cs",
-              "RelativeToolTip": "SignalR.Web\\Hubs\\IExampleTypeSafeHub.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAA7AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-25T15:01:20.399Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Product.cs",
-              "DocumentMoniker": "D:\\Dev\\Software\\Projects\\SignalR\\SignalR.Web\\Models\\Product.cs",
-              "RelativeDocumentMoniker": "SignalR.Web\\Models\\Product.cs",
-              "ToolTip": "D:\\Dev\\Software\\Projects\\SignalR\\SignalR.Web\\Models\\Product.cs",
-              "RelativeToolTip": "SignalR.Web\\Models\\Product.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAA8AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-25T15:00:00.208Z",
+              "WhenOpened": "2024-03-26T13:20:23.803Z",
               "EditorCaption": ""
             }
           ]
